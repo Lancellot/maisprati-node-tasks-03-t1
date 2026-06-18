@@ -4,6 +4,7 @@ import tarefa3 from "./tarefas/tarefa-3.js";
 import tarefa4 from "./tarefas/tarefa-4.js";
 import tarefa5 from "./tarefas/tarefa-5.js";
 import tarefa6 from "./tarefas/tarefa-6.js";
+import tarefa7 from "./tarefas/tarefa-7.js";
 
 import {promptContinuar, sairPrograma, opcaoInvalida} from "./utils/utilsTexto.js";
 import exibirMenu from "./components/menu.js";
@@ -19,7 +20,7 @@ const acoes ={
     '4': () => tarefa4(prompt),
     '5': () => tarefa5(prompt),
     '6': () => tarefa6(prompt),
-    '7': () => tarefa1(prompt),
+    '7': () => tarefa7(prompt),
     '8': () => tarefa1(prompt),
     '9': () => tarefa1(prompt),
     '10': () => tarefa1(prompt)
