@@ -12,7 +12,7 @@ export default function exibirMenu() {
     console.log("7  - Classificação de alunos (for...of e forEach)");
     console.log("8  - Relatório de produtos (forEach)");
     console.log("9  - Contatos (arrays e laços)");
-    console.log("10 - Matriz de notas (arrays e laços)");
+    console.log("10 - Histórico de navegador (pilha usando array)");
     console.log("0  - Sair");
     console.log("============================\n");
 
