@@ -1,5 +1,6 @@
 import tarefa1 from "./tarefas/tarefa-1.js";
 import tarefa2 from "./tarefas/tarefa-2.js";
+import tarefa3 from "./tarefas/tarefa-3.js";
 
 import {promptContinuar, sairPrograma, opcaoInvalida} from "./utils/utilsTexto.js";
 import exibirMenu from "./components/menu.js";
@@ -10,7 +11,7 @@ const prompt = promptSync();
 const acoes ={
     '1': () => tarefa1(prompt),
     '2': () => tarefa2(prompt),
-    '3': () => tarefa1(prompt),
+    '3': () => tarefa3(prompt),
     '4': () => tarefa1(prompt),
     '5': () => tarefa1(prompt),
     '6': () => tarefa1(prompt),
