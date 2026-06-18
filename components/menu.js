@@ -3,8 +3,8 @@ export default function exibirMenu() {
     console.clear();
 
     console.log("===== MENU DE TAREFAS =====");
-    console.log("1  - Tabuada (laço for)");
-    console.log("2  - Contar Dígitos(laço while)");
+    console.log("1  - Produto (laço for...in)");
+    console.log("2  - Personagens (laço for...in)");
     console.log("3  - Fibonacci (laço for)");
     console.log("4  - Verificar senha (laço do...while)");
     console.log("5  - Números primos (laços aninhados)");
