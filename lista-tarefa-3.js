@@ -1,4 +1,4 @@
-
+import tarefa1 from "./tarefas/tarefa-1.js";
 
 import {promptContinuar, sairPrograma, opcaoInvalida} from "./utils/utilsTexto.js";
 import exibirMenu from "./components/menu.js";
@@ -7,16 +7,16 @@ import promptSync from 'prompt-sync';
 const prompt = promptSync();
 
 const acoes ={
-    '1': () => exibirTabuada(prompt),
-    '2': () => contarDigitos(prompt),
-    '3': () => exibirFibonacci(prompt),
-    '4': () => verificarSenha(prompt),
-    '5': () => exibirPrimos(prompt),
-    '6': () => turmaNotas(prompt),
-    '7': () => carrinhoCompras(prompt),
-    '8': () => ehPalindromo(prompt),
-    '9': () => sorteioNumero(prompt),
-    '10': () => matrixNotas(prompt)
+    '1': () => tarefa1(prompt),
+    '2': () => tarefa1(prompt),
+    '3': () => tarefa1(prompt),
+    '4': () => tarefa1(prompt),
+    '5': () => tarefa1(prompt),
+    '6': () => tarefa1(prompt),
+    '7': () => tarefa1(prompt),
+    '8': () => tarefa1(prompt),
+    '9': () => tarefa1(prompt),
+    '10': () => tarefa1(prompt)
 }
 
 let verificador = true;
