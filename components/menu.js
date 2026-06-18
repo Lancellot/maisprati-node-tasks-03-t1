@@ -10,7 +10,7 @@ export default function exibirMenu() {
     console.log("5  - Orçamento mensal (laço for...in)");
     console.log("6  - lista de músicas (for...of e forEach)");
     console.log("7  - Classificação de alunos (for...of e forEach)");
-    console.log("8  - Palíndromo (arrays e laços)");
+    console.log("8  - Relatório de produtos (forEach)");
     console.log("9  - Sorteio de número (laço do...while)");
     console.log("10 - Matriz de notas (arrays e laços)");
     console.log("0  - Sair");
