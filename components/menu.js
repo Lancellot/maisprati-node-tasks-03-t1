@@ -7,7 +7,7 @@ export default function exibirMenu() {
     console.log("2  - Personagem (laço for...in)");
     console.log("3  - Funcionário (laço for...in)");
     console.log("4  - Inventário (laço for...in)");
-    console.log("5  - Números primos (laços aninhados)");
+    console.log("5  - Orçamento mensal (laço for...in)");
     console.log("6  - Turma e notas (arrays e laços)");
     console.log("7  - Carrinho de compras (arrays e laços)");
     console.log("8  - Palíndromo (arrays e laços)");
